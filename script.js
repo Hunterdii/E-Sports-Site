@@ -34,7 +34,7 @@ const successMsg = () => {
 }
 
 
-// validate email
+// Validate E-mail
 
 const isemail = (emailVal) =>{
     var atSymbol = emailVal.indexOf('@');
