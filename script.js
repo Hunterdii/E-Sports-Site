@@ -54,7 +54,7 @@ const validate = () => {
     const passwordVal = password.value.trim();
     const cpasswordVal = cpassword.value.trim();
 
-    // validate username 
+    // Validate Username 
 
     if(usernameVal === ""){
         setErrorMsg(username,'username cannot be blank');
@@ -65,7 +65,7 @@ const validate = () => {
     }
 
 
-    // validate email
+    // Validate email
 
     if(emailVal === ""){
         setErrorMsg(email,'email cannot be blank');
