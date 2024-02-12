@@ -5,7 +5,7 @@ const phoneVal = document.getElementById('phone');
 const passwordVal = document.getElementById('password');
 const cpasswordVal = document.getElementById('cpassword');
 
-// add event
+// Add Event
 
 formVal.addEventListener('submit',(Event) =>{
     Event.preventDefault()
