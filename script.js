@@ -85,7 +85,7 @@ const validate = () => {
     }
 
 
-    // validate password
+    // Validate Password
     if(passwordVal === ""){
         setErrorMsg(password,'password cannot be blank');
     }else if(passwordVal!== cpasswordVal){
