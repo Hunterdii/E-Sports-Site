@@ -33,7 +33,6 @@ const successMsg = () => {
     }
 }
 
-
 // Validate E-mail
 
 const isemail = (emailVal) =>{
